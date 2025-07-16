@@ -1,0 +1,14 @@
+{
+  "name": "ai-app-landing",
+  "version": "1.0.0",
+  "description": "AI App Development Landing Page",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
+  }
+} 
